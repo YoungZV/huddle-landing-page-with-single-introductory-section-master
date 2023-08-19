@@ -27,7 +27,7 @@ body {
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    /* height: 100vh; */
+
 
 }
 
@@ -36,11 +36,11 @@ body {
 .header,
 .main,
 .footer {
-    padding: 2.5rem 3rem;
+    padding: 1rem 1.5rem;
 }
 
 .wrapper {
-    width: min(80%, 1200px);
+    width: min(95%, 1500px);
     margin: 0 auto;
     text-align: center;
 }
@@ -134,11 +134,13 @@ body {
         background-image: url(../images/bg-desktop.svg);
     }
 
-    /* MAIN -------------- */
+    /* Header */
 
-    .main {
-        margin-top: -5rem;
+    .logo {
+        width: 20%;
     }
+
+    /* MAIN -------------- */
 
     .grid_wrapper {
         display: grid;
