@@ -133,9 +133,13 @@ body {
 
     /* MAIN -------------- */
 
+    .main {
+        margin-top: -5rem;
+    }
+
     .grid_wrapper {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 5rem;
         text-align: left;
         place-items: center;
