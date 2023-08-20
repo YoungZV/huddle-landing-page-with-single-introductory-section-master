@@ -128,7 +128,7 @@ body {
 
 
 
-@media (min-width: 950px) {
+@media (min-width: 1200px) {
 
     body {
         background-image: url(../images/bg-desktop.svg);
@@ -147,13 +147,13 @@ body {
         grid-template-columns: 1fr 1fr;
         gap: 5rem;
         text-align: left;
-        place-items: center;
+
 
     }
 
-    .grid_item_2 {
-        transform: translate(0%, 10%);
 
+    .heading_box {
+        padding-top: 5rem;
     }
 
     .button_box {
